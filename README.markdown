@@ -21,7 +21,7 @@ Use bundler to install all required gems in your Rails app
 
     bundle install
 
-Run the devise install generator, followed by the devise-dynamoid model generator:
+Run the devise install generator, followed by the dynamoid-devise model generator:
 
     rails generate devise:install
     rails generate dynamoid:devise MODEL
@@ -61,7 +61,7 @@ Also feel free to suggest, place a fix and improve in the code. Thanks!!!
 
 ## Bugs and Feedback
 
-For *dynamoid-devise* specific issues, please create an issue on GitHub at: [devise-dynamoid issues](http://github.com/macteo/devise-dynamoid/issues)
+For *dynamoid-devise* specific issues, please create an issue on GitHub at: [dynamoid-devise issues](http://github.com/vinaycyadav/dynamoid-devise/issues)
 
 ## Copyright
 
