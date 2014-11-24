@@ -3,7 +3,7 @@
 ## Disclaimer: this is a work in progress
 
 
-`dynamoid-devise` will let you use [devise](http://github.com/plataformatec/devise) with [Dynamoid](https://github.com/Veraticus/Dynamoid).
+`dynamoid-devise` will let you use [devise](http://github.com/plataformatec/devise) with [dynamoid](https://github.com/Veraticus/Dynamoid).
 
 `dynamoid-devise` is intended for use with `Rails 4.1.x` and `Devise 2` and above. It may work with earlier versions of devise.
 
@@ -26,22 +26,17 @@ Run the devise install generator, followed by the dynamoid-devise model generato
     rails generate devise:install
     rails generate dynamoid:devise MODEL
 
-The devise install generator will install an initializer
-(`config/inititializer/devise.rb`) which describes ALL Devise's configuration
-options and you MUST take a look at it. Maker sure this line exists:
+The devise install generator will install an initializer (`config/inititializer/devise.rb`)
+which describes ALL Devise's configuration options and you MUST take a look at it.
 
-    require 'devise/orm/dynamoid'
-
+Maker sure this line exists: require 'devise/orm/dynamoid'
 NOTE: The model generator should do this automatically.
 
 To add Devise to any of your models using the generator:
-
     rails generate dynamoid:devise MODEL
 
 Example: create a User model for use with Devise
-
     rails generate dynamoid:devise User
-
 
 ## Note on Patches/Pull Requests
 
@@ -59,10 +54,12 @@ Example: create a User model for use with Devise
 
 Also feel free to suggest, place a fix and improve in the code. Thanks!!!
 
+
 ## Bugs and Feedback
 
 For *dynamoid-devise* specific issues, please create an issue on GitHub at: [dynamoid-devise issues](http://github.com/vinaycyadav/dynamoid-devise/issues)
 
+
 ## Copyright
 
-Copyright (c) 2014 Vinay C. See LICENSE for details.
+See LICENSE for details. Copyright (c) 2014 Vinay C.
