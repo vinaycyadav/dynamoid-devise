@@ -5,7 +5,7 @@
 
 `dynamoid-devise` will let you use [devise](http://github.com/plataformatec/devise) with [dynamoid](https://github.com/Veraticus/Dynamoid).
 
-`dynamoid-devise` is intended for use with `Rails 4.1.x` and `Devise 2` and above. It may work with earlier versions of devise.
+`dynamoid-devise` is intended for use with `Rails 4.1.x` and `Devise 3.4.x` and above. It may work with earlier versions of devise.
 
 This README only covers `dynamoid-devise` specifics. Make sure to read the [devise README](http://github.com/plataformatec/devise/blob/master/README.rdoc)
 
