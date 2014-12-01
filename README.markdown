@@ -29,13 +29,19 @@ Run the devise install generator, followed by the dynamoid-devise model generato
 The devise install generator will install an initializer (`config/inititializer/devise.rb`)
 which describes ALL Devise's configuration options and you MUST take a look at it.
 
+
 Maker sure this line exists: require 'devise/orm/dynamoid'
+
 NOTE: The model generator should do this automatically.
 
+
 To add Devise to any of your models using the generator:
+
     rails generate dynamoid:devise MODEL
 
+
 Example: create a User model for use with Devise
+
     rails generate dynamoid:devise User
 
 ## Note on Patches/Pull Requests
