@@ -15,6 +15,7 @@ group :default do
   gem 'bson_ext', '>= 1.2.0'
   gem 'rake', '>= 0.8.7'
   gem "orm_adapter"
+  gem 'orm_adapter-dynamoid'
   gem "omniauth-openid", '~>1.0.0'
   gem "omniauth-facebook", '~>1.2.0'
 

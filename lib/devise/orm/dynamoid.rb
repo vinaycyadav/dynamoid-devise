@@ -1,3 +1,3 @@
-require 'orm_adapter/adapters/dynamoid'
+require 'orm_adapter-dynamoid'
 
 Dynamoid::Document::ClassMethods.send :include, Devise::Models
